@@ -17,6 +17,7 @@ $formula = $totalvotos / 2 + 1;
 $formula = floor($formula);
 
 echo "Para vencer são necessários ". $formula . " votos + 1" ."<br><br>";
+
 foreach ($contagem as $key => $repeticoes) {
 
 	if ($repeticoes >= $formula) {
